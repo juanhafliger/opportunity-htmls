@@ -1,0 +1,126 @@
+// Title and Text component
+.cp-title-and-text {
+
+  h2 {
+    font-family   : 'Parnaso';
+    font-size     : 64px;
+    font-weight   : 500;
+    font-style    : normal;
+    font-stretch  : condensed;
+    line-height   : 1;
+    letter-spacing: 0.4px;
+    color         : var(--primary-color);
+
+    margin-bottom: 60px;
+    margin-top   : 74px;
+  }
+
+  h3 {
+
+    font-family   : 'Parnaso';
+    font-size     : 34px;
+    font-weight   : 500;
+    font-style    : normal;
+    font-stretch  : condensed;
+    line-height   : 1.29;
+    letter-spacing: 0.43px;
+    color         : var(--primary-color);
+
+    margin-bottom: 35px;
+
+  }
+
+
+  p {
+
+    opacity       : 0.8;
+    font-size     : 18px;
+    font-weight   : 300;
+    font-style    : normal;
+    font-family   : 'Open Sans Condensed', sans-serif;
+    line-height   : 1.5;
+    letter-spacing: normal;
+    color         : var(--black);
+
+    margin-bottom: 30px;
+
+    span.bold {
+      font-weight: bold;
+    }
+
+    a {
+      color          : #000000;
+      text-decoration: underline;
+
+      &:hover {
+        color: var(--active-color);
+      }
+    }
+  }
+
+  img {
+    max-width: 440px;
+  }
+
+  .divider {
+    padding: 84px 0 57px;
+
+    &.simple {
+      border-bottom: 1px solid var(--black);
+    }
+
+    &.bolder {
+      border-bottom: 5px solid var(--black);
+    }
+
+    &.none {
+      border-bottom: none;
+    }
+  }
+
+  @include for-xs {
+    img {
+      max-width: 100%;
+    }
+
+    h3 {
+
+      font-family   : 'Parnaso';
+      font-size     : 42px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.29;
+      letter-spacing: 0.43px;
+      color         : var(--primary-color);
+
+      margin-bottom: 26px;
+      max-width    : 300px;
+
+    }
+
+    p,
+    ul li {
+      font-size   : 18px;
+      font-weight : 300;
+      font-stretch: condensed;
+      line-height : 1.56;
+    }
+
+    img {
+      margin-bottom: 30px;
+      max-width    : 100%;
+    }
+
+    .divider {
+      padding: 60px 0 30px 0;
+    }
+
+  }
+
+  @include for-xl {
+    .text-long-image {
+      padding-right: 80px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+// -----------------------------------------------------------------------------
+// This file contains all grid sizes
+// -----------------------------------------------------------------------------
+
+
+@media (min-width: 375px) and (max-width: 575px) {
+    .container-fluid {
+        padding-right: 35px;
+        padding-left : 35px;
+
+        .container {
+            padding-right: 0;
+            padding-left : 0;
+        }
+
+        .row {
+            margin-left : 0;
+            margin-right: 0;
+
+            [class^='col-'] {
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        max-width: 492px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container-fluid {
+        padding-right: 42px;
+        padding-left : 42px;
+
+        .container {
+            max-width: 684px;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container-fluid {
+        padding-right: 42px;
+        padding-left : 42px;
+
+        .container {
+            max-width: 940px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        padding-right: 15px;
+        padding-left : 15px;
+
+        .container {
+            max-width: 1180px;
+            padding  : 0;
+        }
+    }
+}

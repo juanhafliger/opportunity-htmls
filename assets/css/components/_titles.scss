@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the titles component.
+// -----------------------------------------------------------------------------
+
+.display-1 {
+  letter-spacing: normal;
+  font-stretch  : condensed;
+
+  @include for-xs {
+    font-size  : 54px;
+    line-height: 1.11;
+  }
+
+  @include for-md {
+    font-size  : 50px;
+    line-height: 1.2;
+  }
+
+  @include for-xl {
+    font-size  : 64px;
+    line-height: 1.25;
+  }
+}
+

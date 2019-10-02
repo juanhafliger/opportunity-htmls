@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains all backgrounds declarations
+// -----------------------------------------------------------------------------
+.bg-light {
+  background-color: var(--bg-light) !important;
+}
+
+.bg-white {
+  background-color: var(--white) !important;
+}
+
+.bg-primary-green {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary-green {
+  background-color: var(--secondary-green) !important;
+}
+
+.bg-sections {
+  background-color: var(--bg-section-color) !important;
+}
+.bg-light-b {
+  background-color: rgba(204, 193, 186, 0.11) !important;
+}

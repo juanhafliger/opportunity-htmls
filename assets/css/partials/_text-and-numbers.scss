@@ -1,0 +1,139 @@
+// Text and number componet
+.cp-text-and-numbers {
+  .private-equity {
+    &--a {
+      opacity       : 0.8;
+      font-family   : 'Parnaso';
+      font-size     : 30px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.1;
+      letter-spacing: normal;
+      color         : var(--black);
+    }
+
+    &--b {
+      font-size     : 80px;
+      font-family   : 'Parnaso';
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.09;
+      letter-spacing: -3.16px;
+      color         : var(--highlight-color);
+    }
+
+    &--c {
+      font-family   : 'Parnaso';
+      font-size     : 143px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.4;
+      letter-spacing: -5px;
+      color         : var(--highlight-color);
+    }
+
+    &--d {
+
+      opacity       : 0.8;
+      font-family   : 'Parnaso';
+      font-size     : 30px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.33;
+      letter-spacing: normal;
+      color         : var(--black);
+
+      margin: -40px 0 0 0 !important;
+
+    }
+
+  }
+
+  p {
+
+    opacity       : 0.8;
+    font-size     : 18px;
+    font-weight   : 300;
+    font-style    : normal;
+    font-family   : 'Open Sans Condensed', sans-serif;
+    line-height   : 1.5;
+    letter-spacing: normal;
+    color         : var(--black);
+
+    margin-bottom: 30px;
+  }
+
+  .divider {
+    border-bottom: 5px solid var(--black);
+    padding      : 53px 0 70px 0;
+  }
+
+  @include for-xl {
+    .divider {
+      border-bottom: 5px solid var(--black);
+      padding      : 92px 0 70px 0;
+    }
+
+    p {
+      font-size    : 20px;
+      padding-right: 40px;
+    }
+
+    .private-equity {
+      &--a {
+        opacity       : 0.8;
+        font-family   : 'Parnaso';
+        font-size     : 38px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 0.87;
+        letter-spacing: normal;
+        color         : var(--black);
+      }
+
+      &--b {
+        font-size     : 120px;
+        font-family   : 'Parnaso';
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 1.09;
+        letter-spacing: -4.74px;
+        color         : var(--highlight-color);
+      }
+
+      &--c {
+        font-family   : 'Parnaso';
+        font-size     : 183px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 1.09;
+        letter-spacing: -6.42px;
+        color         : var(--highlight-color);
+      }
+
+      &--d {
+
+        opacity       : 0.8;
+        font-family   : 'Parnaso';
+        font-size     : 40px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 1.13;
+        letter-spacing: normal;
+        color         : var(--black);
+
+        margin: 0;
+
+      }
+
+    }
+  }
+}

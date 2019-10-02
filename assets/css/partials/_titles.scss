@@ -1,0 +1,47 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to title block of the site/application.
+// -----------------------------------------------------------------------------
+.titles-component {
+
+  h3 {
+
+    font-family   : 'Open Sans';
+    font-size     : 16px;
+    font-weight   : normal;
+    font-style    : normal;
+    font-stretch  : normal;
+    line-height   : 0.88;
+    letter-spacing: 1px;
+    color         : var(--primary-color);
+    text-transform: uppercase;
+  }
+
+  .divider {
+    padding: 33px 0 38px 0;
+    &.simple {
+      border-bottom: 1px solid var(--black);
+    }
+
+    &.bolder {
+      border-bottom: 5px solid var(--black);
+    }
+
+    &.none {
+      border-bottom: none;
+    }
+
+  }
+
+  @include for-xl {
+    h3 {
+      font-size     : 18px;
+      font-weight   : 600;
+      line-height   : 0.78;
+      letter-spacing: 2.45px;
+    }
+
+    .divider {
+      padding: 33px 0 53px 0;
+    }
+  }
+}

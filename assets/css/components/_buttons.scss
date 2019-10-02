@@ -1,0 +1,64 @@
+  // -----------------------------------------------------------------------------
+  // This file contains all styles related to the button component.
+  // -----------------------------------------------------------------------------
+
+
+  .o-btn {
+    padding       : 12px 25px;
+    display       : inline-block;
+    text-transform: uppercase;
+    font-size     : 11px;
+    font-weight   : bold;
+    color         : var(--primary-color);
+    border        : solid 1px var(--primary-color);
+    position      : relative;
+
+    &:after {
+      border           : solid var(--active-color);
+      border-width     : 0 2px 2px 0;
+      display          : inline-block;
+      padding          : 0.145rem;
+      border-radius    : 1px;
+      transform        : rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      margin-left      : 10px;
+      content          : " ";
+
+    }
+
+    @include on-event {
+      text-decoration : none;
+      color           : var(--white);
+      background-color: var(--primary-color);
+    }
+
+    &-secondary {
+      border: solid 1px var(--white);
+      color : var(--white);
+
+      @include on-event {
+        color           : var(--secondary-green);
+        background-color: var(--white);
+      }
+    }
+
+    &.for-table {
+
+      &:after {
+        display: none;
+      }
+
+      &.locked {
+        min-width     : 143px;
+        text-align    : center;
+        padding-top   : 10px;
+        padding-bottom: 10px;
+        border-color  : rgba(159, 127, 101, 0.25);
+
+        &:hover{
+          background-color: transparent !important;
+        }
+      }
+    }
+
+  }

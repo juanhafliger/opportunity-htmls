@@ -1,0 +1,740 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.h-100 {
+  height: 100%;
+}
+
+.border-bottom-section {
+  border-bottom: 1px solid var(--black);
+}
+
+.border-top-section {
+  border-top: 5px solid var(--black);
+}
+
+.bg-section {
+  @include with-bg(transparent);
+  position: relative;
+  padding : 0;
+
+  &:before {
+    width           : 100%;
+    height          : 100%;
+    background-image: linear-gradient(78deg, #00000087, #00000000);
+    content         : " ";
+    position        : absolute;
+    top             : 0;
+  }
+}
+
+.banner-home {
+  min-height: 660px;
+
+  h3 {
+    font-family   : 'Open Sans';
+    font-size     : 18px;
+    font-weight   : 600;
+    font-style    : normal;
+    font-stretch  : normal;
+    line-height   : 0.78;
+    letter-spacing: 2.45px;
+    color         : var(--highlight-color);
+    margin-bottom : 32px;
+  }
+
+  h2 {
+    margin-bottom : 103px;
+    font-size     : 70px;
+    font-weight   : 500;
+    font-style    : normal;
+    font-stretch  : condensed;
+    line-height   : 1.11;
+    letter-spacing: normal;
+    color         : var(--white);
+
+    &.slim{
+      font-size     : 60px;
+      line-height   : 1.17;
+    }
+  }
+
+  @include for-xs {
+    min-height: calc(80vh - 68px);
+    &.full{
+      min-height: calc(100vh - 68px);
+    }
+
+    h2 {
+      font-size    : 36px;
+      padding-left : 40px;
+      margin-bottom: 0;
+      &.slim{
+        font-size     : 36px;
+        line-height   : 1.17;
+      }
+    }
+
+    h3 {
+      padding-left: 40px;
+      font-size   : 16px;
+    }
+  }
+
+  @include for-md {
+    h2 {
+      font-size: 50px;
+    }
+  }
+}
+
+.header-with-ctas {
+  margin-top    : 100px;
+  padding-bottom: 30px !important;
+
+  h3 {
+    font-size     : 18px;
+    font-weight   : 400;
+    font-style    : normal;
+    font-stretch  : normal;
+    line-height   : normal;
+    letter-spacing: 2.45px;
+    color         : var(--primary-color);
+    padding-bottom: 0;
+    margin-bottom : 0;
+  }
+
+  @include for-xs {
+    margin-top    : 50px;
+    padding-bottom: 40px !important;
+  }
+
+  @include for-md {
+    padding-bottom: 40px !important;
+  }
+}
+
+.number-block {
+  padding-top   : 100px;
+  padding-bottom: 100px;
+
+  .first {
+    margin-right: 0;
+
+    h3 {
+      margin-bottom: 31px;
+    }
+  }
+
+  .second {
+    max-width   : 373px;
+    padding-left: 30px;
+  }
+
+  .third {
+    text-align: right;
+
+    .number {
+      font-family   : 'Parnaso';
+      font-size     : 188px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.01;
+      letter-spacing: -7.92px;
+      color         : var(--highlight-color);
+      display       : block;
+      position      : relative;
+      padding-right : 64px;
+
+      &:after {
+        object-fit    : contain;
+        font-family   : 'Parnaso';
+        font-size     : 124px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : normal;
+        letter-spacing: 1.94px;
+        color         : var(--highlight-color);
+        position      : absolute;
+        right         : 0;
+        content       : '%';
+        top           : 4px;
+      }
+    }
+
+    .label {
+      font-family   : 'Parnaso';
+      font-size     : 28px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.21;
+      letter-spacing: normal;
+      text-align    : right;
+      color         : var(--black);
+      opacity       : 0.8;
+      margin-top    : -10px;
+    }
+  }
+
+  .fith {
+
+    .label-1 {
+      opacity       : 0.8;
+      font-family   : 'Parnaso';
+      font-size     : 38px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : normal;
+      letter-spacing: normal;
+      color         : var(--black);
+      margin-bottom : 8px;
+    }
+
+    .label-2 {
+      font-family   : 'Parnaso';
+      font-size     : 120px;
+      letter-spacing: -4.74px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : normal;
+      letter-spacing: normal;
+      color         : var(--primary-color);
+
+    }
+
+    .label-3 {
+      font-family   : 'Parnaso';
+      font-size     : 183px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : normal;
+      letter-spacing: -6.42px;
+      color         : var(--primary-color);
+    }
+
+    .label-4 {
+      opacity       : 0.8;
+      font-family   : 'Parnaso';
+      font-size     : 45px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : normal;
+      letter-spacing: normal;
+      color         : var(--black);
+    }
+
+  }
+
+  .sixth {
+    position : relative;
+    min-width: 270px;
+
+    .label-1 {
+      font-family   : 'Parnaso';
+      font-size     : 185px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : normal;
+      letter-spacing: -2.73px;
+      color         : var(--primary-color);
+    }
+
+    .label-2 {
+      position      : absolute;
+      top           : 124px;
+      left          : 86px;
+      opacity       : 0.8;
+      font-family   : 'Parnaso';
+      font-size     : 28px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.21;
+      letter-spacing: normal;
+      color         : var(--black);
+    }
+  }
+
+  @include for-xs {
+    .first {
+      margin-right: 0;
+
+      h3 {
+        margin-top: 36px;
+      }
+    }
+
+    .second {
+      margin-right: 0;
+      padding-left: 0
+    }
+
+    .third {
+      text-align: left;
+
+      .number {
+        font-size     : 140px;
+        padding-right : 45px;
+        margin-top    : 39px;
+        letter-spacing: -4.05px;
+
+        &:after {
+          font-size: 90px;
+          left     : 245px;
+          top      : 4px;
+        }
+      }
+
+      .label {
+        text-align: left;
+        margin-top: 0;
+      }
+    }
+
+    .fourth {
+      margin-top   : 56px;
+      margin-bottom: 69px;
+    }
+
+    .fith {
+      margin-bottom: 95px;
+
+      .label-1 {
+        font-size    : 30px;
+        margin-bottom: 13px;
+      }
+
+      .label-2 {
+        font-size: 80px;
+      }
+
+      .label-3 {
+        font-size: 136px;
+      }
+
+      .label-4 {
+        font-size: 30px;
+      }
+    }
+
+    .sixth {
+      margin-bottom: 69px;
+
+      .label-1 {
+        font-size: 170px;
+      }
+
+      .label-2 {
+        font-size: 30px;
+        left     : 145px;
+        top      : 8px;
+      }
+    }
+  }
+
+  @include for-md {
+    padding-top   : 80px;
+    padding-bottom: 80px;
+
+    .first {
+      margin-right: 26px;
+
+      h3 {
+        font-size  : 34px;
+        line-height: 1.29;
+      }
+    }
+
+    .second {
+      margin-right: 19px;
+      width       : 239px;
+      padding-left: 0;
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .third {
+      .number {
+        font-size     : 100px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 1;
+        letter-spacing: -4.21px;
+        text-align    : right;
+        padding-right : 34px;
+
+        &:after {
+          font-size     : 64px;
+          font-weight   : 500;
+          letter-spacing: 1px;
+          content       : '%';
+        }
+      }
+    }
+
+    .fourth {
+      h3 {
+        font-size  : 34px;
+        line-height: 1.29;
+      }
+    }
+
+    .fith {
+
+      .label-1 {
+        font-size    : 24px;
+        margin-bottom: 13px;
+      }
+
+      .label-2 {
+        font-size: 59px;
+      }
+
+      .label-3 {
+        font-size     : 100px;
+        letter-spacing: -3.51px;
+      }
+
+      .label-4 {
+        font-size: 24px;
+      }
+    }
+
+    .sixth {
+      min-width: 180px;
+
+      .label-1 {
+        font-size: 100px;
+      }
+
+      .label-2 {
+        font-size: 24px;
+        left     : 46px;
+        top      : 50px;
+      }
+    }
+  }
+
+  @include for-lg {
+    padding-top: 100px;
+
+    .first {
+      margin-right: 26px;
+
+      h3 {
+        font-size     : 50px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 1.2;
+        letter-spacing: normal;
+      }
+    }
+
+    .second {
+      margin-right: 46px;
+      width       : 276px;
+      padding-left: 0;
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .third {
+      .number {
+        font-size     : 145px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 1;
+        letter-spacing: -6.11px;
+        padding-right : 64px;
+
+        &:after {
+          font-size     : 104px;
+          letter-spacing: 1.63px;
+          content       : '%';
+        }
+      }
+    }
+
+    .fourth {
+      margin-left: 50px;
+
+      h3 {
+        font-size  : 50px;
+        line-height: 1.2;
+      }
+    }
+
+    .fith {
+
+      .label-1 {
+        font-size    : 28px;
+        margin-bottom: 13px;
+      }
+
+      .label-2 {
+        font-size: 90px;
+      }
+
+      .label-3 {
+        font-size     : 120px;
+        letter-spacing: -4.21px;
+        padding-top   : 18px;
+        display       : block;
+      }
+
+      .label-4 {
+        font-size: 28px;
+      }
+    }
+
+    .sixth {
+      min-width: 240px;
+
+      .label-1 {
+        font-size : 120px;
+        margin-top: 12px;
+        display   : block;
+      }
+
+      .label-2 {
+        font-size: 28px;
+        left     : 52px;
+        top      : 78px;
+      }
+    }
+  }
+
+  @include for-xl {
+    .fourth {
+      margin-left: 16px;
+    }
+
+    .fith {
+      .label-1 {
+        padding: 10px 0 0 0;
+      }
+
+      .label-2 {
+        padding: 10px 0 0 0;
+      }
+
+      .label-3 {
+        padding: 20px 0 0 0;
+        display: block;
+      }
+
+      .label-4 {
+        display   : block;
+        margin-top: -29px;
+      }
+    }
+  }
+}
+
+
+.news-block {
+  padding-top: 62px;
+
+
+  .grid {
+    display              : grid;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows   : 320px 320px;
+    max-width            : auto;
+    margin               : 40px auto;
+  }
+
+  .item-2 {
+    grid-row: span 2;
+  }
+
+  .item-1,
+  .item-3 {
+    grid-column: span 2;
+  }
+
+  /* Grid Item */
+  .item {
+    margin-bottom: 15px;
+    @include with-bg(var(--disabled-color));
+
+
+    filter: gray;
+    /* IE5+ */
+    -webkit-filter: grayscale(1);
+    /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .2s ease-in-out;
+
+
+    &:hover {
+      filter           : none;
+      -webkit-filter   : grayscale(0);
+      -webkit-transform: scale(1);
+    }
+
+
+    a {
+      width   : 100%;
+      height  : 100%;
+      position: relative;
+      display : block;
+
+      img {
+        position   : absolute;
+        top        : 50%;
+        left       : 50%;
+        margin-left: -28px;
+        margin-top : -28px;
+        width      : 56px;
+        height     : 56px;
+      }
+
+      .label {
+        position      : absolute;
+        bottom        : 25px;
+        left          : 28px;
+        padding-right : 28px;
+        color         : var(--white);
+        font-family   : 'Parnaso';
+        font-size     : 20px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 1.3;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+
+  @include for-xs {
+    .grid-desktop {
+      display: none !important;
+    }
+
+    .grid {
+      display       : block;
+      margin        : 30px 0;
+      padding-bottom: 32px;
+
+      .item {
+        width : 100%;
+        height: 360px;
+      }
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+      bottom: 0;
+      left  : 8px;
+      width : auto;
+    }
+
+    .swiper-pagination-bullet {
+      width        : 10px;
+      height       : 10px;
+      display      : inline-block;
+      border-radius: 100%;
+      background   : var(--inactive-color);
+      border       : 2px solid var(--inactive-color);
+      opacity      : 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity   : 1;
+      background: #ffffff;
+      border    : 2px solid var(--primary-color);
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 15px 0 0;
+    }
+  }
+
+  @include for-md {
+    .grid-desktop {
+      display: grid;
+    }
+
+    .grid {
+      display              : grid;
+      grid-template-columns: repeat(3, 32%);
+      grid-template-rows   : 277px 277px;
+      max-width            : auto;
+      margin               : 10px auto;
+    }
+
+    .item-2 {
+      grid-row: span 2;
+    }
+
+    .item-1,
+    .item-3 {
+      grid-column: span 2;
+    }
+
+    .item {
+      a {
+        img {
+          margin-left: -25px;
+          margin-top : -25px;
+          width      : 49px;
+          height     : 49px;
+        }
+
+        .label {
+          line-height: 1.1;
+        }
+      }
+    }
+  }
+
+  @include for-lg {
+    .grid {
+      display              : grid;
+      grid-template-columns: repeat(3, 32%);
+      grid-template-rows   : 343px 343px;
+      max-width            : auto;
+      margin               : 10px auto;
+    }
+
+    .item-2 {
+      grid-row: span 2;
+    }
+
+    .item-1,
+    .item-3 {
+      grid-column: span 2;
+    }
+
+    .item {
+      a {
+        img {
+          margin-left: -25px;
+          margin-top : -25px;
+          width      : 49px;
+          height     : 49px;
+        }
+
+        .label {
+          line-height: 1.1;
+        }
+      }
+    }
+  }
+}

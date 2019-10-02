@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Relative or absolute URL where all assets are served from
+$base-url: 'assets/' !default;
+
+/// Container's maximum width
+$max-width: 1180px !default;
+
+/// Default colors 
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --light-color: #f9f9f9;
+  --primary-color: #00653b;
+  --secondary-green: #004530;
+  --highlight-color: #c8b18b;
+  --inactive-color: #9f7f65;
+  --active-color: #f58427;
+  --disabled-color: #a18167;
+  --bg-light: #ccc1ba;
+  --bg-section-color: #c8b18b1a;
+}
+
+.color-primary{
+  color: var(--primary-color);
+}
+

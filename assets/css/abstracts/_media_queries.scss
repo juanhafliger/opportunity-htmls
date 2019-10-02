@@ -1,0 +1,61 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass media queries.
+// -----------------------------------------------------------------------------
+@mixin for-xs {
+  @media (min-width: 0) and (max-width: 479px) { @content; }
+}
+@mixin for-sm {
+  @media (min-width: 480px) and (max-width: 767px) { @content; }
+}
+@mixin for-md {
+  @media (min-width: 768px) and (max-width: 1023px){ @content; }
+}
+@mixin for-lg {
+  @media (min-width: 1024px) and (max-width: 1199px) { @content; }
+}
+@mixin for-xl {
+  @media (min-width: 1200px) { @content; }
+}
+
+
+$breakpoints: (
+  'mobile' : (min-width: 0px, max-width: 1024px),
+);
+
+
+
+/// Media query merger
+/// Create a single media condition out of a map of queries
+/// @param {Map} $queries - Map of media queries
+@mixin media($queries) {
+  @if length($queries) == 0 {
+    @content;
+  } @else {
+    $first-key: nth(map-keys($queries), 1);
+
+    @media ($first-key: map-get($queries, $first-key)) {
+      $queries: map-remove($queries, $first-key);
+
+      @include media($queries) {
+        @content;
+      }
+    }
+  }
+}
+
+@mixin respond-to($breakpoint) {
+  // Get the query map for $breakpoints map
+  $queries: map-get($breakpoints, $breakpoint);
+
+  // If there is no query called $breakpoint in map, throw an error
+  @if not $queries {
+    @error "No value could be retrieved from `#{$breakpoint}`. "
+    + "Please make sure it is defined in `$breakpoints` map.";
+  }
+
+  // Include the media mixin with $queries
+  @include media($queries) {
+    @content;
+  }
+}
+

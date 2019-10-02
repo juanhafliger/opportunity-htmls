@@ -1,0 +1,108 @@
+.podcast {
+
+  .thumb {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .title {
+
+    font-family   : 'Parnaso';
+    font-size     : 30px;
+    font-weight   : 500;
+    font-style    : normal;
+    font-stretch  : condensed;
+    line-height   : 1.47;
+    letter-spacing: 0.8px;
+    color         : var(--black);
+    margin-bottom: 20px;
+
+  }
+
+  .audio-player {
+    padding         : 28px 35px 28px 50px;
+    text-align      : center;
+    background-color: #f9f7f3;
+
+
+    .player-controls {
+
+      span {
+        margin-top: -8px;
+      }
+
+      progress {
+        width: 433px;
+      }
+
+      progress[value] {
+        -webkit-appearance: none;
+        appearance        : none;
+        background-color  : var(--primary-color);
+        color             : #c8b18a;
+        height            : 4px;
+
+      }
+
+      progress[value]::-webkit-progress-bar {
+        background-color: #c8b18a;
+        border-radius   : 0px;
+        color           : var(--primary-color);
+      }
+
+      progress::-webkit-progress-value {
+        background-color: var(--primary-color);
+        ;
+      }
+
+    }
+
+    #play-btn {
+      background-image: url('../images/icons/play.svg');
+      background-size : cover;
+      width           : 25px;
+      height          : 25px;
+
+      &.pause {
+        background-image: url('../images/icons/pause.svg');
+      }
+    }
+
+    .timer {
+      font-size     : 13px;
+      font-weight   : 600;
+      font-style    : normal;
+      font-stretch  : normal;
+      line-height   : normal;
+      letter-spacing: 1px;
+      color         : var(--black);
+
+    }
+  }
+
+  @include for-xs {
+    .title {
+      margin-top: 50px;
+    }
+    .player-controls {
+
+      span {
+        margin-top: -8px;
+      }
+
+      progress {
+        max-width: 123px !important;
+      }
+
+      progress[value] {
+        -webkit-appearance: none;
+        appearance        : none;
+        background-color  : var(--primary-color);
+        color             : #c8b18a;
+        height            : 4px;
+
+      }
+    }
+  
+  }
+}

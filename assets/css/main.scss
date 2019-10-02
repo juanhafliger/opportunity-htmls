@@ -1,0 +1,48 @@
+@charset 'UTF-8';
+
+
+// 1. Configuration and helpers
+@import
+  'abstracts/media_queries',
+  'abstracts/variables',
+  'abstracts/mixins',
+  'abstracts/functions';
+
+// 2. Base stuff
+@import
+  'base/fonts',
+  'base/resets',
+  'base/backgrounds',
+  'base/grid';
+  
+// 3. partials-related sections
+@import
+  'partials/grid',
+  'partials/header',
+  'partials/navigation',
+  'partials/image-and-text',
+  'partials/text-and-numbers',
+  'partials/content-in-columns',
+  'partials/title-and-text',
+  'partials/slogan',
+  'partials/swipe-gallery',
+  'partials/titles',
+  'partials/panel',
+  'partials/wysiwyg',
+  'partials/forms',
+  'partials/podcast',
+  'partials/footer';
+
+// 4. Components
+@import
+  'components/buttons',
+  'components/tooltip',
+  'components/checkbox',
+  'components/titles',
+  'components/tables';
+
+// 5. Page-specific styles
+@import
+  'pages/home',
+  'pages/interna';
+
