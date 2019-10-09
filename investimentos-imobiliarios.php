@@ -11,7 +11,6 @@
 
   <?php include('inc/header.php'); ?>
 
-
   <?php
   includeFileWithVariables("inc/components/banner.php", array(
     'header' => "INVESTIMENTOS IMOBILIÁRIOS",
@@ -54,8 +53,6 @@
   ));
   ?>
 
-
-
   <?php
   includeFileWithVariables("inc/components/image-and-text.php", array(
     'superTitle' => 'Desenvolvimento <br>Imobiliário',
@@ -80,9 +77,6 @@
     'itemsPerColumn' => 1
   ));
   ?>
-
-
-
 
   <?php include('inc/footer.php'); ?>
   <?php include('inc/menu-mobile.php'); ?>
