@@ -21,8 +21,9 @@
                <div class="swiper-slide item">
                  <a style="<?php echo (!empty($item[0])) ? 'background-image: url(' . $item[0] . ');' : ''; ?>" href="#">
                    <?php echo (!empty($item[1])) ? '<span class="label">' . $item[1] . '</span>' : ''; ?>
+                   <?php echo (!empty($item[4])) ? '<img src="' . $item[4] . '" class="watermark" />' : ''; ?>
                  </a>
-                 <?php echo (!empty($item[2])) ? '<div class="col_01--b">' . $item[2] . '</div>' : ''; ?>
+                 <?php echo (!empty($item[2])) ? '<div class="col_01--b">' . $item[2] . '<span>' . $item[5] . '</span></div>' : ''; ?>
                </div>
 
              <?php endforeach; ?>

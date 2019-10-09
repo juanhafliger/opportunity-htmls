@@ -12,6 +12,7 @@
     color         : var(--primary-color);
     border        : solid 1px var(--primary-color);
     position      : relative;
+    font-family   : 'Open Sans', sans-serif;
 
     &:after {
       border           : solid var(--active-color);
@@ -55,7 +56,7 @@
         padding-bottom: 10px;
         border-color  : rgba(159, 127, 101, 0.25);
 
-        &:hover{
+        &:hover {
           background-color: transparent !important;
         }
       }

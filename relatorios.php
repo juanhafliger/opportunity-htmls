@@ -22,7 +22,7 @@
 
   <?php
   includeFileWithVariables("inc/components/panel.php", array(
-    'title' => '<h1 class="header-title">Relatórios</h1>'
+    'title' => null
   ));
   ?>
 
@@ -37,15 +37,14 @@
   <!-- /podcast js-->
 
   <script>
-
     $('.dropdown-toggle').dropdown();
     $('.dropdown-menu .nav-item.nav-link').on('click', function() {
       $(this).parent().parent().find('.dropdown-toggle').html($(this).html());
     });
 
-    
-  // Initialize Swiper Gallery Component
-  
+
+    // Initialize Swiper Gallery Component
+
     $(".swiper-container").each(function(index, element) {
       var $this = $(this);
       var itemsPerColumn = $this.attr('data-items-per-column');
@@ -76,6 +75,25 @@
         }
       });
     });
+
+    //validate forms 
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Pega todos os formulários que nós queremos aplicar estilos de validação Bootstrap personalizados.
+        var forms = document.getElementsByClassName('needs-validation');
+        // Faz um loop neles e evita o envio
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
   </script>
 
 

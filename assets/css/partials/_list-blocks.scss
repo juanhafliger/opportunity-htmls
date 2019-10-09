@@ -1,0 +1,78 @@
+.list-blocks {
+  .number {
+    font-family   : 'Parnaso';
+    font-size     : 40px;
+    font-weight   : 500;
+    font-style    : normal;
+    font-stretch  : condensed;
+    line-height   : 1.5;
+    letter-spacing: 2.5px;
+    color         : var(--highlight-color);
+  }
+
+  .text {
+
+    object-fit    : contain;
+    opacity       : 0.8;
+    font-family   : 'Open Sans Condensed';
+    font-size     : 20px;
+    font-weight   : 300;
+    font-style    : normal;
+    font-stretch  : condensed;
+    line-height   : 1.5;
+    letter-spacing: normal;
+    color         : var(--black);
+  }
+
+  &-4col {
+    >div {
+      width         : 25%;
+      padding-right : 45px;
+      padding-bottom: 25px;
+    }
+  }
+
+  @include for-xs {
+    .number {
+      font-size     : 50px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.2;
+      letter-spacing: 3.13px;
+      min-width     : 77px;
+    }
+
+    .text {
+      font-size     : 18px;
+      font-weight   : 300;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.56;
+      letter-spacing: 0.2px;
+      color         : var(--black);
+      width         : auto;
+
+    }
+
+    &-4col {
+      >div {
+        width         : 100%;
+        padding-right : 0px;
+        padding-bottom: 45px;
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+
+  }
+}
+
+.divider-bolder-cp-list-blocks-container {
+  border-bottom : 5px solid var(--black);
+  padding-bottom: 60px !important;
+  padding-top   : 50px !important;
+  margin-bottom: 30px;
+}

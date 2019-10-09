@@ -24,6 +24,12 @@
             width: 33.333%;
           }
         }
+        &.w-5 {
+          a {
+            width: 20%;
+            // background-color: #c00;
+          }
+        }
 
         a {
           opacity       : 1;
@@ -90,6 +96,12 @@
         position  : relative;
         background: var(--white);
         max-width : 1180px;
+
+        &.divider-bottom-bolder {
+          border-bottom : 5px solid;
+          padding-bottom: 57px !important;
+        }
+
       }
     }
 
@@ -98,7 +110,7 @@
 
 
       // min-height: 500px;
-      padding   : 30px 35px 50px 35px;
+      padding      : 30px 35px 50px 35px;
 
       .nav.nav-pills {
         width        : 100%;
@@ -189,7 +201,7 @@
 $bw: 1px; // border width
 
 .tab-pane {
-  padding-top: 85px;
+  padding-top: 77px;
 
   h2 {
 
@@ -203,6 +215,17 @@ $bw: 1px; // border width
     color         : var(--primary-color);
 
     margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size     : 40px;
+    font-weight   : 500;
+    font-style    : normal;
+    font-stretch  : condensed;
+    line-height   : 1;
+    letter-spacing: 0.5px;
+    color         : var(--black);
+    margin-bottom : 40px;
   }
 
   h6 {
@@ -275,6 +298,7 @@ $bw: 1px; // border width
   list-style   : none;
   border-bottom: solid $bw #cccccc;
   background   : fade(slategrey, 90%);
+
   &:last-child {
     border-bottom-width: 0;
   }
@@ -311,7 +335,7 @@ $bw: 1px; // border width
       font-weight     : 600;
       font-style      : normal;
       font-stretch    : normal;
-      line-height     : 3.25;
+      line-height     : 3.74;
       letter-spacing  : 1.8px;
       color           : var(--white);
       text-align      : center;
@@ -332,6 +356,10 @@ $bw: 1px; // border width
       letter-spacing: -0.18px;
       font-family   : 'Open Sans Condensed', sans-serif;
       color         : var(--black);
+      
+      &:hover {
+        color: var(--primary-color);
+      }
     }
 
     &:after {
@@ -346,7 +374,9 @@ $bw: 1px; // border width
       top                : 50%;
       right              : 0;
       margin-top         : -7px;
+
     }
+
   }
 
   //end of content for simple list ------------------------------------------------------------
@@ -360,6 +390,7 @@ $bw: 1px; // border width
 .Xtable--2cols>.Xtable-cell {
   width       : 40%;
   margin-right: 30px;
+
   &:last-child {
     border-bottom-width: 1px;
   }

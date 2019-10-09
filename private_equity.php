@@ -74,16 +74,14 @@
   includeFileWithVariables("inc/components/swipe-gallery.php", array(
     'title' => '',
     'row' => [
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#'],
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#'],
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#'],
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#'],
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#'],
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#'],
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#'],
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#'],
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#'],
-      ['assets/images/imagem-private-investimentos-01-cor@3x.jpg', '', '', '#']
+      ['assets/images/5.jpg', '', '', '#', 'assets/images/h-5.png'],
+      ['assets/images/6.jpg', '', '', '#', 'assets/images/h-6.png'],
+      ['assets/images/7.jpg', '', '', '#', 'assets/images/h-7.png'],
+      ['assets/images/8.jpg', '', '', '#', 'assets/images/h-8.png'],
+      ['assets/images/9.jpg', '', '', '#', 'assets/images/h-9.png'],
+      ['assets/images/10.jpg', '', '', '#', 'assets/images/h-10.png'],
+      ['assets/images/11.jpg', '', '', '#', 'assets/images/h-11.png'],
+      ['assets/images/12.jpg', '', '', '#', 'assets/images/h-12.png']
     ],
     'divider' => 'none pb-0',
     'itemsPerColumn' => 2

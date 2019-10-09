@@ -73,6 +73,8 @@
   }
 
   @include for-xl {
+   
+    
     .divider {
       border-bottom: 5px solid var(--black);
       padding      : 92px 0 70px 0;
@@ -84,6 +86,7 @@
     }
 
     .private-equity {
+      margin-top: -6px;
       &--a {
         opacity       : 0.8;
         font-family   : 'Parnaso';
@@ -102,9 +105,10 @@
         font-weight   : 500;
         font-style    : normal;
         font-stretch  : condensed;
-        line-height   : 1.09;
+        line-height   : 1.05;
         letter-spacing: -4.74px;
         color         : var(--highlight-color);
+        margin-top    : -4px;
       }
 
       &--c {
@@ -116,6 +120,8 @@
         line-height   : 1.09;
         letter-spacing: -6.42px;
         color         : var(--highlight-color);
+
+        margin-top: -5px;
       }
 
       &--d {
@@ -130,7 +136,7 @@
         letter-spacing: normal;
         color         : var(--black);
 
-        margin: 0;
+        margin: -26px 0 0 0 !important;
 
       }
 

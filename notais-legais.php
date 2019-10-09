@@ -15,7 +15,7 @@
 
   <?php
   includeFileWithVariables("inc/components/titles.php", array(
-    'title' => '<h1 class="header-title">Notais Legais</h1>',
+    'title' => '<h1 class="header-title">Notas Legais</h1>',
     'suptitle' => '',
     'divider' => 'none',
     'type' => 'header',
@@ -25,7 +25,7 @@
 
   <?php
   includeFileWithVariables("inc/components/title-and-text.php", array(
-    'title' => 'Notas Legais',
+    'title' => 'Avisos ao Investidor',
     'cols' => array(
       array('content' => '
             <p>Todos os dados e/ou opiniões apresentados neste website foram elaborados dentro do contexto e conjuntura do momento de sua produção, podendo sofrer alterações sem aviso prévio, além de possuírem caráter meramente informativo, não devendo ser considerados como oferta de investimento.</p>
@@ -96,12 +96,9 @@
       <p>O Banco Central possui, ainda, um canal de comunicação aberto ao público, através do "Fale conosco" na mencionada página.</p>
       '),
     ),
-    'divider' => 'bolder'
+    'divider' => 'none pb-0'
   ));
   ?>
-
-
-
 
 
   <?php include('inc/footer.php'); ?>

@@ -13,6 +13,18 @@
 
     margin-bottom: 60px;
     margin-top   : 74px;
+
+    &.small-title {
+
+      font-size     : 40px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.1;
+      letter-spacing: 0.5px;
+      margin-bottom : 40px;
+      margin-top    : 74px;
+    }
   }
 
   h4 {
@@ -26,6 +38,21 @@
     color         : var(--black);
 
     margin-bottom: 26px;
+  }
+
+  h5 {
+    opacity    : 0.8;
+    font-size  : 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    color      : var(--primary-color);
+    line-height: 1.5;
+
+    span {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 500;
+      color      : var(--black);
+    }
   }
 
   p {
@@ -53,14 +80,53 @@
         color: var(--active-color);
       }
     }
+
+    &.small {
+      font-size  : 18px;
+      line-height: 1.56;
+    }
   }
 
   img {
     max-width: 440px;
+    &.text-image-full{
+      max-width: 100% !important;
+    }
+  }
+
+  .contact-block {
+    padding: 60px 0 30px 0;
+
+    &:first-child {
+      padding-top  : 0;
+      border-bottom: 1px solid #9f7f6580;
+    }
+
+    h3 {
+      font-size     : 50px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 0.88;
+      letter-spacing: 0.63px;
+      color         : var(--primary-color);
+    }
+
+    h4 {
+      font-size     : 66px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.21;
+      letter-spacing: normal;
+      color         : var(--highlight-color);
+      margin-bottom : 15px;
+
+    }
   }
 
   .divider {
-    padding: 123px 0 67px;
+    padding: 123px 0 84px;
 
     &.simple {
       border-bottom: 1px solid var(--black);
@@ -73,7 +139,14 @@
     &.none {
       border-bottom: none;
     }
+
+
+    &.form-text-long {
+      padding: 90px 0 30px 0;
+    }
   }
+
+
 
   @include for-xs {
     img {
@@ -84,8 +157,22 @@
       font-size  : 54px;
       line-height: 1.11;
 
-      margin-bottom: 47px;
-      margin-top   : 32px;
+      margin-bottom: 10px;
+      margin-top   : 10px;
+
+      &.small-title {
+
+        font-size     : 36px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 1.22;
+        letter-spacing: 0.45px;
+
+        margin-top   : 40px;
+        margin-bottom: 0;
+
+      }
     }
 
     h4 {
@@ -115,8 +202,47 @@
 
     .divider {
       padding: 60px 0 30px 0;
+
+      &.form-text-long {
+        padding: 30px 0 30px 0;
+      }
     }
 
+
+    .reverse-mobile {
+      flex-direction: column-reverse !important;
+    }
+
+    .contact-block {
+      padding      : 30px 0 30px 0;
+      border-bottom: 1px solid #9f7f6580;
+
+      &:first-child {
+        padding-top: 30px;
+      }
+
+      &:last-child {
+        margin-bottom: 30px;
+      }
+
+      h3 {
+        font-size     : 36px;
+        font-weight   : 500;
+        font-style    : normal;
+        font-stretch  : condensed;
+        line-height   : 1.22;
+        letter-spacing: 0.45px;
+        margin-bottom : 0;
+      }
+
+      h4 {
+        font-size   : 44px;
+        font-weight : 500;
+        font-style  : normal;
+        font-stretch: condensed;
+        line-height : 1.82;
+      }
+    }
   }
 
   @include for-xl {

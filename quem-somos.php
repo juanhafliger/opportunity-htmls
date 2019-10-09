@@ -23,10 +23,11 @@
 
   <?php
   includeFileWithVariables("inc/components/slogan.php", array(
-    'title' => 'Fundado em 1994 por <a href="#">Daniel Dantas</a> e <a href="#">Dorio Ferman</a>, o Opportunity é uma das primeiras e maiores empresas de gestão de recursos e pioneira na indústria brasileira de fundos de investimento.',
+    'title' => 'Fundado em 1994 por <a data-toggle="modal" data-target="#daniel-dantas" href="#">Daniel Dantas</a> e <a data-toggle="modal" data-target="#dorio-ferman" href="#">Dorio Ferman</a>, o Opportunity é uma das primeiras e maiores empresas de gestão de recursos e pioneira na indústria brasileira de fundos de investimento.',
     'space' => 'quem-somos'
   ));
   ?>
+
 
   <?php
   includeFileWithVariables("inc/components/image-and-text.php", array(
@@ -101,6 +102,34 @@
     'side_by_side' => true
   ));
   ?>
+
+  <?php
+  includeFileWithVariables("inc/components/modal.php", array(
+    'title' => 'Dorio Ferman',
+    'subtitle' => 'Sócio-fundador do Opportunity',
+    'content' => '
+      <p>Atua na gestão de fundos de investimentos desde o início da década de 80, dentre os quais o Opportunity Lógica II Fundo de Investimento em Ações (anteriormente denominado Clube de Investimento DF1), com performance consistente e destacada.</p>
+      <p>Concluiu o curso de mestrado em Economia pela EPGE/FGV (Escola de Pós-graduação de Economia da Fundação Getúlio Vargas) em 1979, tendo sido professor na mesma escola por 2 anos.</p>
+      <p>Graduou-se em Engenharia Elétrica pela UFPE (Universidade Federal de Pernambuco) em 1967, onde lecionou por 3 anos.</p>',
+    'type' => 'normal',
+    'classHelper' => null,
+    'modalID' => 'dorio-ferman'
+  )); ?>
+
+  <?php
+  includeFileWithVariables("inc/components/modal.php", array(
+    'title' => 'Daniel Dantas',
+    'subtitle' => 'Sócio-fundador do Opportunity',
+    'content' => '
+    <p>Foi diretor-executivo da holding do Banco Icatu desde 1988 até a fundação do Opportunity, em 1994.</p>
+    <p>Sua vasta experiência como administrador de recursos inclui posições executivas junto ao Bradesco Seguros S.A. (Vice-presidente de investimentos, 1985/86), às corretoras de valores Triplik (Diretor, 1983/85) e Prosper (Diretor, 1981), e à empresa de consultoria econômico-financeira Simposium (Diretor,1983), do Prof. Mário Henrique Simonsen.</p>
+    <p>Daniel Dantas é pós-doutorado em Finanças e foi professor visitante do Massachussets Institute of Technology (MIT).</p>
+    <p>É doutor em Economia pela Fundação Getúlio Vargas/RJ, e engenheiro civil pela UFBA.</p>',
+    'type' => 'normal',
+    'classHelper' => null,
+    'modalID' => 'daniel-dantas'
+  )); ?>
+
 
 
 

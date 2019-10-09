@@ -553,7 +553,7 @@
 		.o-panel {
 
 			// min-height: 500px;
-			padding   : 30px 35px 50px 35px;
+			padding      : 30px 35px 50px 35px;
 
 			.nav.nav-pills {
 				width        : 100%;
@@ -831,4 +831,59 @@
 	top     : 0;
 	height  : 70px;
 	z-index : 1;
+}
+
+
+.team-photos {
+	.team-members {
+
+		img {
+			max-width: 100% !important;
+		}
+
+		.name {
+			padding-top   : 15px;
+			padding-bottom: 5px !important;
+
+			font-family   : 'Parnaso';
+			font-size     : 24px;
+			font-weight   : 500;
+			font-style    : normal;
+			font-stretch  : condensed;
+			line-height   : 2.08;
+			letter-spacing: 0.4px;
+			color         : var(--black);
+		}
+	}
+
+	.font-sans-bold {
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: bold;
+	}
+
+	@include respond-to('mobile') {
+		.team-members {
+			margin: 0 -10px;
+
+			>div {
+				padding: 0 10px !important;
+				img {
+					margin: 0;
+				}
+				.name {
+					padding-top   : 0;
+					padding-bottom: 0 !important;
+
+					font-size     : 20px;
+					font-weight   : 500;
+					font-style    : normal;
+					font-stretch  : condensed;
+					line-height   : 2.5;
+					letter-spacing: 0.33px;
+					color         : var(--black);
+
+				}
+			}
+		}
+	}
 }

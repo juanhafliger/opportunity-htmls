@@ -4,18 +4,18 @@
   </div>
   <div class="col-12 col-lg-5 p-0">
     <h6>Para ouvir o Conference Call mensal com a nossa equipe de gestão, basta preencher os campos abaixo.</h6>
-    <form class="o-form">
+    <form class="o-form needs-validation" novalidate>
       <div class="form-group">
-        <input type="text" class="form-control" id="nome" placeholder="">
-        <div class="d-flex justify-content-between align-items-start pt-3">
-          <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="" required>
+        <label for="nome">Nome</label>
+        <div class="invalid-feedback">
           <span class="required">Obrigatório</span>
         </div>
       </div>
       <div class="form-group">
-        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="">
-        <div class="d-flex justify-content-between align-items-start pt-3">
-          <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="" required>
+        <label for="email">Email</label>
+        <div class="invalid-feedback">
           <span class="required">Obrigatório</span>
         </div>
       </div>
@@ -59,8 +59,6 @@
       </div>
 
     </div>
-
-
 
   </div>
 

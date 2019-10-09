@@ -27,7 +27,7 @@
 
           <span class="header">SET 2018</span>
           <h2>A mensagem de Turquia e Argentina para o Brasil.</h2>
-          <h3>O mês de agosto foi marcado por um ambiente mais adverso na economia mundial para países emergentes. Os casos mais agudos de turbulência foram observados na Turquia e na Argentina. O dólar teve alta de 35% frente à lira turca apenas no mês, e no ano de 2018 a elevação é de 75%. </h3>
+          <h3 class="font-osc">O mês de agosto foi marcado por um ambiente mais adverso na economia mundial para países emergentes. Os casos mais agudos de turbulência foram observados na Turquia e na Argentina. O dólar teve alta de 35% frente à lira turca apenas no mês, e no ano de 2018 a elevação é de 75%. </h3>
 
           <div class="media-container">
             <img src="assets/images/1.jpg" class="img-fluid" alt="Nome da Imagem" />

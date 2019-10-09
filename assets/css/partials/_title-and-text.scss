@@ -28,6 +28,9 @@
 
     margin-bottom: 35px;
 
+    &.color-black {
+      color: var(--black) !important;
+    }
   }
 
 
@@ -56,6 +59,10 @@
         color: var(--active-color);
       }
     }
+
+    &.font-size-20 {
+      font-size: 20px;
+    }
   }
 
   img {
@@ -82,6 +89,21 @@
     img {
       max-width: 100%;
     }
+
+    h2 {
+
+      font-size     : 54px;
+      font-weight   : 500;
+      font-style    : normal;
+      font-stretch  : condensed;
+      line-height   : 1.11;
+      letter-spacing: 0.4px;
+      color         : var(--primary-color);
+
+      margin-bottom: 20px;
+      margin-top   : 54px;
+    }
+
 
     h3 {
 
@@ -113,7 +135,7 @@
     }
 
     .divider {
-      padding: 60px 0 30px 0;
+      padding: 60px 0 60px 0;
     }
 
   }

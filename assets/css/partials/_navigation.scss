@@ -85,6 +85,7 @@ body {
             border       : 0;
             padding      : 20px 20px 13px 20px;
 
+            &.d-block,
             &.d-block.show {
               left: -20px !important;
             }
