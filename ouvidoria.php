@@ -84,14 +84,14 @@
                         <div class="o-form-item pr-5">
                           <label class="container-checkbox d-flex justify-content-between align-items-center">
                             <span class="label ">SIM</span>
-                            <input type="checkbox" name="group" checked="checked">
+                            <input type="checkbox" name="ja-foi-atendido" value="sim">
                             <span class="checkmark"></span>
                           </label>
                         </div>
                         <div class="o-form-item pr-5">
                           <label class="container-checkbox d-flex justify-content-between align-items-center">
                             <span class="label ">NÃO</span>
-                            <input type="checkbox" name="group">
+                            <input type="checkbox" name="ja-foi-atendido" value="nao" checked="checked">
                             <span class="checkmark"></span>
                           </label>
                         </div>
@@ -100,7 +100,7 @@
 
                     <div class="form-group"></div>
         
-                    <div class="form-group">
+                    <div class="form-group ja-foi-atendido-sim" style="display:none;">
                       <input type="text" class="form-control" id="resposta" placeholder="" required>
                       <label for="resposta">Qual a resposta obtida?</label>
                       <div class="invalid-feedback">
@@ -108,7 +108,7 @@
                       </div>
                     </div>
                 
-                    <div class="form-group">
+                    <div class="form-group ja-foi-atendido-sim" style="display:none;">
                       <input type="text" class="form-control" id="atendente" placeholder="" required>
                       <label for="atendente">Nome do Atendente</label>
                       <div class="invalid-feedback">
@@ -149,6 +149,12 @@
       var $box = $(this);
       if ($box.is(":checked")) {
 
+        if ($box.val() == "sim") {
+          $('.ja-foi-atendido-sim').show();
+        } else {
+          $('.ja-foi-atendido-sim').hide();
+        }
+        
         var group = "input:checkbox[name='" + $box.attr("name") + "']";
 
         $(group).prop("checked", false);
@@ -179,9 +185,6 @@
       }, false);
     })();
   </script>
-
-
-
 
 
 </body>

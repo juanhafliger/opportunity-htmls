@@ -190,38 +190,38 @@
         </div>
       </div>
       <div class="row team-members">
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/2/equipe-foto-02@3x.jpg" alt=""><p class="name">Alexandre Coelho</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/1/equipe-foto-01@3x.jpg" alt=""><p class="name">Bruno Bak</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/4/equipe-foto-04@3x.jpg" alt=""><p class="name">Bruno Bak</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/3/equipe-foto-03@3x.jpg" alt=""><p class="name">Bruno Bak</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/6/equipe-foto-06@3x.jpg" alt=""><p class="name">Bruno Bak</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/5/equipe-foto-05@3x.jpg" alt=""><p class="name">Bruno Bak</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/8/equipe-foto-08@3x.jpg" alt=""><p class="name">Dório Ferman</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/7/equipe-foto-07@3x.jpg" alt=""><p class="name">Eduardo Marques</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/10/equipe-foto-10@3x.jpg" alt=""><p class="name">Frederico Catalan</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/9/equipe-foto-09@3x.jpg" alt=""><p class="name">Gabriel Levy</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/12/equipe-foto-12@3x.jpg" alt=""><p class="name">Gabriel Piccoli</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/11/equipe-foto-11@3x.jpg" alt=""><p class="name">Guilherme Preciado</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/14/equipe-foto-14@3x.jpg" alt=""><p class="name">Gustavo Vieira</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/13/equipe-foto-13@3x.jpg" alt=""><p class="name">Humberto Nardiello</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/16/equipe-foto-16@3x.jpg" alt=""><p class="name">Igor Chalhub</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/15/equipe-foto-15@3x.jpg" alt=""><p class="name">Itamar Benigno</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/18/equipe-foto-18@3x.jpg" alt=""><p class="name">Laura Gonzaga</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/17/equipe-foto-17@3x.jpg" alt=""><p class="name">Leonardo Monoli</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/20/equipe-foto-20@3x.jpg" alt=""><p class="name">Lorenzo Rabello</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/19/equipe-foto-19@3x.jpg" alt=""><p class="name">Luiz Constantino</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/22/equipe-foto-22@3x.jpg" alt=""><p class="name">Marcelo Fonseca</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/21/equipe-foto-21@3x.jpg" alt=""><p class="name">Marcos Mollica</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/24/equipe-foto-24@3x.jpg" alt=""><p class="name">Marcos Pinheiro</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/23/equipe-foto-23@3x.jpg" alt=""><p class="name">Milton Baggio</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/26/equipe-foto-26@3x.jpg" alt=""><p class="name">Pedro Guedes</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/25/equipe-foto-25@3x.jpg" alt=""><p class="name">Rafael Bistafa</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/28/equipe-foto-28@3x.jpg" alt=""><p class="name">Renata Baião</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/27/equipe-foto-27@3x.jpg" alt=""><p class="name">Renato Antunes</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/30/equipe-foto-30@3x.jpg" alt=""><p class="name">Ricardo Rennó</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/29/equipe-foto-29@3x.jpg" alt=""><p class="name">Samir Moreira</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/32/equipe-foto-32@3x.jpg" alt=""><p class="name">Stefano Milagostovich</p></div>
-        <div class="col-6 col-lg-2"><img src="assets/images/equipe/31/equipe-foto-31@3x.jpg" alt=""><p class="name">Vinícius Ferreira</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/1/equipe-foto-01@3x.jpg" alt=""><p class="name">Alexandre Coelho</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/2/equipe-foto-02@3x.jpg" alt=""><p class="name">Bruno Bak</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/3/equipe-foto-03@3x.jpg" alt=""><p class="name">Bruno Palermo</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/4/equipe-foto-04@3x.jpg" alt=""><p class="name">Bruno Waga</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/5/equipe-foto-05@3x.jpg" alt=""><p class="name">Daniel Brum</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/6/equipe-foto-06@3x.jpg" alt=""><p class="name">Diogo Bahia</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/7/equipe-foto-07@3x.jpg" alt=""><p class="name">Dório Ferman</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/8/equipe-foto-08@3x.jpg" alt=""><p class="name">Eduardo Marques</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/9/equipe-foto-09@3x.jpg" alt=""><p class="name">Frederico Catalan</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/10/equipe-foto-10@3x.jpg" alt=""><p class="name">Gabriel Levy</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/11/equipe-foto-11@3x.jpg" alt=""><p class="name">Gabriel Piccoli</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/12/equipe-foto-12@3x.jpg" alt=""><p class="name">Guilherme Preciado</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/13/equipe-foto-13@3x.jpg" alt=""><p class="name">Gustavo Vieira</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/14/equipe-foto-14@3x.jpg" alt=""><p class="name">Humberto Nardiello</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/15/equipe-foto-15@3x.jpg" alt=""><p class="name">Igor Chalhub</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/16/equipe-foto-16@3x.jpg" alt=""><p class="name">Itamar Benigno</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/17/equipe-foto-17@3x.jpg" alt=""><p class="name">Laura Gonzaga</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/18/equipe-foto-18@3x.jpg" alt=""><p class="name">Leonardo Monoli</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/19/equipe-foto-19@3x.jpg" alt=""><p class="name">Lorenzo Rabello</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/20/equipe-foto-20@3x.jpg" alt=""><p class="name">Luiz Constantino</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/21/equipe-foto-21@3x.jpg" alt=""><p class="name">Marcelo Fonseca</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/22/equipe-foto-22@3x.jpg" alt=""><p class="name">Marcos Mollica</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/23/equipe-foto-23@3x.jpg" alt=""><p class="name">Marcos Pinheiro</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/24/equipe-foto-24@3x.jpg" alt=""><p class="name">Milton Baggio</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/25/equipe-foto-25@3x.jpg" alt=""><p class="name">Pedro Guedes</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/26/equipe-foto-26@3x.jpg" alt=""><p class="name">Rafael Bistafa</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/27/equipe-foto-27@3x.jpg" alt=""><p class="name">Renata Baião</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/28/equipe-foto-28@3x.jpg" alt=""><p class="name">Renato Antunes</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/29/equipe-foto-29@3x.jpg" alt=""><p class="name">Ricardo Rennó</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/30/equipe-foto-30@3x.jpg" alt=""><p class="name">Samir Moreira</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/31/equipe-foto-31@3x.jpg" alt=""><p class="name">Stefano Milagostovich</p></div>
+        <div class="col-6 col-lg-2"><img src="assets/images/equipe/32/equipe-foto-32@3x.jpg" alt=""><p class="name">Vinícius Ferreira</p></div>
         
       </div>
       <div class="row">

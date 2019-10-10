@@ -93,7 +93,7 @@
     'form' => '<form class="o-form needs-validation pt-4" novalidate>
                   <div class="form-group">
                     <input type="text" class="form-control" id="denuncia" placeholder="" required>
-                    <label for="denuncia">Denuncia</label>
+                    <label for="denuncia">Denúncia</label>
                     <div class="invalid-feedback">
                       <span class="required">Obrigatório</span>
                     </div>
