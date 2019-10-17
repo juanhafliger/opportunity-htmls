@@ -76,6 +76,8 @@
       });
     });
 
+    
+
     //validate forms 
     (function() {
       'use strict';
